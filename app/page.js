@@ -8,7 +8,7 @@ const jinrishici = require('jinrishici');
 import styles from './page.module.css'
 let timer = ''
 
-export default function () {
+export default function Home() {
   const [colorsInfo, setColorsInfo] = useState(chineseColors)
   const [currentColor, setCurrentColor] = useState(chineseColors[0].hex)
   const [currentColorName, setCurrentColorName] = useState(chineseColors[0].name)
