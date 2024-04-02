@@ -1,0 +1,22 @@
+{
+  "name": "chinese-colors",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run kill; next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "kill": "lsof -ti :3000 >/dev/null && lsof -ti :3000  | xargs kill -9"
+  },
+  "dependencies": {
+    "jinrishici": "^1.0.6",
+    "next": "14.1.4",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4"
+  }
+}
